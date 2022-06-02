@@ -21,6 +21,10 @@ class GalleryCollectionViewCell: UICollectionViewCell {
     func setData(user: String, photo: String){
         userURL = user
         photoArray = photo
+    
+        userNameLabel.layer.cornerRadius = 10
+        userNameLabel.layer.borderWidth = 2
+        userNameLabel.layer.borderColor = UIColor.white.cgColor
         
         photourlButton.layer.borderWidth = 2
         photourlButton.layer.borderColor = UIColor.white.cgColor
