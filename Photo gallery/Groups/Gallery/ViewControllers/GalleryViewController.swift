@@ -19,6 +19,9 @@ class GalleryViewController: UIViewController {
     
     var photoUrlArray : [String] = []
     var userUrlArray : [String] = []
+    
+    var new : [String] = []
+    var newTwo : [String] = []
 
     @IBOutlet weak var collectionView: UICollectionView!
 
