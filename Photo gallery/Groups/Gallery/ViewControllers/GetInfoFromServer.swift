@@ -29,7 +29,6 @@ extension GalleryViewController {
                     self.names.append(i.userName)
                     self.photoUrlArray.append(i.photoURL)
                     self.userUrlArray.append(i.userURL)
-                    //                    self.names.sort()
                 }
                 
                 for i in json.keys {
